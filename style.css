@@ -51,43 +51,8 @@ td {
   max-width: 940px;
   margin: 0 auto;
   height: 800px;
-  padding-bottom: 96px; /* ensures content isn’t hidden behind footer */
 }
 
 .left {
   width: 150px;
-}
-
-/* ==== Footer ==== */
-footer {
-  margin-top: 50px;
-  text-align: center;
-  position: sticky;   /* changed from fixed */
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #242f44;
-  border-top: 2px solid #8c6b48;
-  padding: 16px 0;
-  z-index: 5;
-}
-
-footer nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 32px;
-}
-
-footer a {
-  color: #e7e7e7;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-footer a:hover {
-  color: #8c6b48;
-  text-decoration: underline;
 }
